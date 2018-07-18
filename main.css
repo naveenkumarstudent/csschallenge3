@@ -1,0 +1,16 @@
+.box{
+    position: absolute;
+    height:100px;
+    width: 100px;
+    background-color: #0997d3;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    transition-property: position;
+    
+    
+    }
+
+
+.box:hover{
+    transform:translateX(100%);
+}
